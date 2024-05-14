@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{html,js,svelte,ts}",
     "./node_modules/flowbite/**/*.{html,js,svelte,ts}",
   ],
-  plugins: [require("flowbite/plugin")],
+  plugins: [
+    require("flowbite/plugin"),
+    require("tailwindcss-animate")
+  ],
   theme: {
     extend: {
       colors: {

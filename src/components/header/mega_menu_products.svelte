@@ -96,6 +96,10 @@
             >
                 Explore our dispensing solutions
             </p>
+            <p class=" text-white dark:text-white mb-5">
+                Precise automated fluid dispensing solutions collaborative
+                robots.
+            </p>
             <button
                 type="button"
                 class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700"

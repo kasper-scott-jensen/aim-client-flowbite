@@ -11,28 +11,22 @@
             <h2
                 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
             >
-                We didn't reinvent the wheel
+                Enhancing Confidence in Automated Dispensing Systems
             </h2>
             <p class="mb-4">
-                We are strategists, designers and developers. Innovators and
-                problem solvers. Small enough to be simple and quick, but big
-                enough to deliver the scope you want at the pace you need. Small
-                enough to be simple and quick, but big enough to deliver the
-                scope you want at the pace you need.
-            </p>
-            <p>
-                We are strategists, designers and developers. Innovators and
-                problem solvers. Small enough to be simple and quick.
+                We are committed to simplifying the dispensing process and
+                boosting confidence in automated systems. Our goal is to provide
+                the most precise automated fluid dispensing solutions and
+                software tools designed specifically for collaborative robots
+                (cobots). Our offerings ensure high repeatability and enhanced
+                quality control in production through advanced electronic
+                control systems.
             </p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
+            <img class="w-full rounded-lg" src={imgSrc1} alt="SD3055" />
             <img
-                class="w-full rounded-lg bg-[#222c56] p-4"
-                src={imgSrc1}
-                alt="SD3055"
-            />
-            <img
-                class="mt-4 w-full lg:mt-24 rounded-lg bg-[#222c56] p-4"
+                class="w-full lg:mt-24 xl:mt-48 rounded-lg"
                 src={imgSrc2}
                 alt="FD310"
             />
