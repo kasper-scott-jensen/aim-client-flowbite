@@ -15,7 +15,7 @@
             >
                 <a
                     use:link
-                    href="/knowledge-center"
+                    href="/knowledge-center/configurator"
                     class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full hover:bg-gray-200"
                 >
                     <span
@@ -24,7 +24,7 @@
                         New
                     </span>
                     <span class="text-sm font-medium">
-                        Our Knowledge Center is here. Try it now!
+                        Our Setup Configurator is Here. Try it now!
                     </span>
                     <svg
                         class="ml-2 w-5 h-5"

@@ -18,7 +18,7 @@
         >
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
@@ -46,7 +46,7 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
@@ -72,7 +72,7 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
@@ -100,7 +100,7 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
@@ -128,7 +128,7 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
@@ -156,7 +156,7 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#00adee] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
                 >
                     <svg
                         class="w-5 h-5 text-white lg:w-6 lg:h-6"
