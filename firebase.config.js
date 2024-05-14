@@ -12,7 +12,7 @@ const firebaseConfig = {
   storageBucket: "aimrobotics-main.appspot.com",
   messagingSenderId: "60063932647",
   appId: "1:60063932647:web:057ff4db704ea191c7c242",
-  measurementId: "G-744Z0Q63YB"
+  measurementId: "G-744Z0Q63YB",
 };
 
 // Initialize Firebase
