@@ -4,7 +4,7 @@
     let imgSrc = '/img/bring_together.webp'
 </script>
 
-<section class="bg-white dark:bg-gray-900 pt-12">
+<section class="bg-white dark:bg-gray-900 pt-12 pb-24">
     <div
         class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"
     >

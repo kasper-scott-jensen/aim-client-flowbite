@@ -34,6 +34,18 @@
                     </span>
                 </a>
             </li>
+            <li>
+                <a
+                    use:link
+                    href="/products/airbox"
+                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                >
+                    <div class="font-semibold">FAQ</div>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                        Frequently asked questions
+                    </span>
+                </a>
+            </li>
         </ul>
         <ul>
             <li>

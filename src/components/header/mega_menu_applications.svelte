@@ -61,20 +61,41 @@
                 </a>
             </li>
         </ul>
-        <div class="mt-4 md:mt-2">
+        <div class="flex h-full flex-col justify-center">
             <h2 class="mb-2 font-semibold text-gray-900 dark:text-white">
                 For more information
             </h2>
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Do not hesitate to contact us with questions about a specific
-                setup or application.
+                Browse through our resources or contact us directly.
             </p>
             <a
                 use:link
-                href="/contact"
-                class="inline-flex items-center text-sm font-medium text-blue-600 hover:underline hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-700"
+                href="/applications"
+                class="inline-flex items-center text-sm font-medium text-[#00adee] hover:underline"
             >
-                Contact Us
+                Discover
+                <svg
+                    class="w-3 h-3 ms-2 rtl:rotate-180"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                >
+                    <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                </svg>
+            </a>
+            <a
+                use:link
+                href="/contact"
+                class="inline-flex items-center text-sm font-medium text-[#00adee] hover:underline mt-2"
+            >
+                Contact
                 <svg
                     class="w-3 h-3 ms-2 rtl:rotate-180"
                     aria-hidden="true"
