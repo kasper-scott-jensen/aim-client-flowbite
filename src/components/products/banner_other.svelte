@@ -10,9 +10,7 @@
             class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12"
             style="background-image: url(/img/accessories.webp)"
         >
-            <h2
-                class="mb-4 text-3xl tracking-tight font-extrabold text-white dark:text-white"
-            >
+            <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white">
                 Accessories
             </h2>
             <p class=" text-white mb-4">
@@ -48,9 +46,7 @@
             class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12"
             style="background-image: url(/img/parts.webp)"
         >
-            <h2
-                class="mb-4 text-3xl trcking-tight font-extrabold text-white dark:text-white"
-            >
+            <h2 class="mb-4 text-3xl trcking-tight font-extrabold text-white">
                 Replacement Parts
             </h2>
             <p class=" text-white mb-4">Parts for fast and easy replacement</p>

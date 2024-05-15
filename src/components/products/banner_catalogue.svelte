@@ -10,7 +10,7 @@
         style="background-image: url(/img/made_by_aim.webp)"
     >
         <h2
-            class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white dark:text-white"
+            class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white"
         >
             Product Catalogue
         </h2>
