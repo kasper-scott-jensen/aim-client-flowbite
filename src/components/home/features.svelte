@@ -1,12 +1,12 @@
-<section class="bg-white dark:bg-gray-900 lg:-mt-48">
+<section class="bg-white lg:-mt-48">
     <div class="py-8 px-4 mx-auto max-w-screen-2xl sm:py-16 lg:px-6">
         <div class="max-w-screen-md mb-8 lg:mb-16">
             <h2
-                class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+                class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
             >
                 Designed for the End User
             </h2>
-            <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p class="text-gray-500 sm:text-xl">
                 Our dispensing systems are designed with the end user in mind,
                 focusing on ease of use and minimal training requirements. They
                 offer intuitive interfaces and robust support, ensuring a
@@ -18,10 +18,10 @@
         >
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -35,10 +35,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">
-                    Precision
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Precision</h3>
+                <p class="text-gray-500">
                     Our electronically controlled dispensers eliminate natural
                     variations found in pneumatic solutions, ensuring high fluid
                     repeatability for superior quality control.
@@ -46,10 +44,10 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -63,8 +61,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Safety</h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Safety</h3>
+                <p class="text-gray-500">
                     The dispensing units are designed and manufactured to comply
                     with collaborative robot safety standards, providing the
                     best end-user experience.
@@ -72,10 +70,10 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -89,10 +87,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">
-                    Ease of Use
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Ease of Use</h3>
+                <p class="text-gray-500">
                     At Aim Robotics, we believe in simplicity when it comes to
                     setting up and installing our units, aiming to make
                     operators feel comfortable when changing the application.
@@ -100,10 +96,10 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -117,10 +113,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">
-                    Plug & Play
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Plug & Play</h3>
+                <p class="text-gray-500">
                     Our units facilitate a straightforward setup and integration
                     process, empowering end-users to enhance their production
                     capabilities with minimal effort.
@@ -128,10 +122,10 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -145,10 +139,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">
-                    Reduced Cost and Time
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Reduced Cost and Time</h3>
+                <p class="text-gray-500">
                     Our dispensing systems streamline workflows and minimize
                     waste, reducing operational costs and processing time,
                     resulting in significant savings.
@@ -156,10 +148,10 @@
             </div>
             <div>
                 <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#222c56] lg:h-12 lg:w-12"
+                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
                 >
                     <svg
-                        class="w-5 h-5 text-white lg:w-6 lg:h-6"
+                        class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
@@ -173,10 +165,8 @@
                         ></path>
                     </svg>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">
-                    Quality Control
-                </h3>
-                <p class="text-gray-500 dark:text-gray-400">
+                <h3 class="mb-2 text-xl font-bold">Quality Control</h3>
+                <p class="text-gray-500">
                     Our dispensing systems are electronically controlled to
                     guarantee high repeatability and ensure rigorous quality
                     control throughout the production process.

@@ -6,7 +6,7 @@
         <a
             target="_blank"
             href="https://www.facebook.com/AimRobotics/"
-            class="text-white hover:text-white dark:hover:text-white"
+            class="text-white hover:text-white"
         >
             <svg
                 class="w-5 h-5"
@@ -26,7 +26,7 @@
         <a
             target="_blank"
             href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://twitter.com/roboticsaim%3Flang%3Den&ved=2ahUKEwj-rbuFx-6FAxVlIxAIHW5HChEQFnoECBUQAQ&usg=AOvVaw3xjSCg6-w0RASqlPqW6760"
-            class="text-white hover:text-white dark:hover:text-white ms-5"
+            class="text-white hover:text-white ms-5"
         >
             <svg
                 class="w-5 h-5"
@@ -46,7 +46,7 @@
         <a
             target="_blank"
             href="https://www.linkedin.com/company/aimrobotics/"
-            class="text-white hover:text-white dark:hover:text-white ms-5"
+            class="text-white hover:text-white ms-5"
         >
             <svg
                 class="w-5 h-5"
@@ -66,7 +66,7 @@
         <a
             target="_blank"
             href="https://www.youtube.com/channel/UCJQFquVcEKNgbN19sj9p8xwtw"
-            class="text-white hover:text-white dark:hover:text-white ms-5"
+            class="text-white hover:text-white ms-5"
         >
             <svg
                 class="w-5 h-5"

@@ -1,8 +1,8 @@
 *:not(i) {
-  font-family: Arial, Helvetica, sans-serif !important;
-  caret-color: transparent !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    caret-color: transparent !important;
 }
 
 .caret {
-  caret-color: initial !important;
+    caret-color: initial !important;
 }

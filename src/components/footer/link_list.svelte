@@ -4,12 +4,10 @@
 
 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
     <div class="px-8">
-        <h2
-            class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-        >
+        <h2 class="mb-6 text-sm font-semibold text-white uppercase">
             Navigation
         </h2>
-        <ul class="text-white dark:text-gray-400 font-medium">
+        <ul class="text-white font-medium">
             <li class="mb-4">
                 <a use:link href="/products" class="hover:underline">
                     Products
@@ -34,12 +32,10 @@
         </ul>
     </div>
     <div class="px-8">
-        <h2
-            class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-        >
+        <h2 class="mb-6 text-sm font-semibold text-white uppercase">
             Help and Inquiries
         </h2>
-        <ul class="text-white dark:text-gray-400 font-medium">
+        <ul class="text-white font-medium">
             <li class="mb-4">
                 <a use:link href="/contact" class="hover:underline">Contact</a>
             </li>
@@ -72,12 +68,8 @@
         </ul>
     </div>
     <div class="px-8">
-        <h2
-            class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-        >
-            Network
-        </h2>
-        <ul class="text-white dark:text-gray-400 font-medium">
+        <h2 class="mb-6 text-sm font-semibold text-white uppercase">Network</h2>
+        <ul class="text-white font-medium">
             <li class="mb-4">
                 <a use:link href="/network/partners" class="hover:underline">
                     Our Partners

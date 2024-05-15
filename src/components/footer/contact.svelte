@@ -1,7 +1,5 @@
 <div>
-    <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-        Contact
-    </h2>
+    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Contact</h2>
     <p class="mb-5 flex items-center justify-start text-white">
         <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
             <svg
@@ -55,7 +53,7 @@
     <p class="flex mb-5 items-center justify-start text-white">
         <span class="me-3 [&>svg:h-5 [&>svg]:w-5">
             <svg
-                class="text-white dark:text-white"
+                class="text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

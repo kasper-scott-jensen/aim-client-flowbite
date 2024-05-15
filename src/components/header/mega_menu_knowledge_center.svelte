@@ -4,20 +4,20 @@
 
 <div
     id="mega-menu-full-dropdown"
-    class="mt-1 bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600"
+    class="mt-1 bg-white border-gray-200 shadow-sm border-y"
 >
     <div
-        class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6"
+        class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 sm:grid-cols-2 md:grid-cols-3 md:px-6"
     >
         <ul>
             <li>
                 <a
                     use:link
                     href="/products/dispensers"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Testing</div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Request a test or try out our dispensing calculator
                     </span>
                 </a>
@@ -26,10 +26,10 @@
                 <a
                     use:link
                     href="/products/airbox"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Documentation</div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Datasheets, manuals and 3D-files
                     </span>
                 </a>
@@ -38,10 +38,10 @@
                 <a
                     use:link
                     href="/products/airbox"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">FAQ</div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Frequently asked questions
                     </span>
                 </a>
@@ -52,10 +52,10 @@
                 <a
                     use:link
                     href="/products/accessories"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Guides</div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Setup guides and videos
                     </span>
                 </a>
@@ -64,17 +64,17 @@
                 <a
                     use:link
                     href="#!"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">
                         Showcase
                         <span
-                            class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-1 rounded dark:bg-blue-900 dark:text-blue-300 ms-2"
+                            class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-1 rounded ms-2"
                         >
                             Coming Soon
                         </span>
                     </div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Comprehensive presentation of setups
                     </span>
                 </a>
@@ -83,10 +83,10 @@
                 <a
                     use:link
                     href="/products/replacement-parts"
-                    class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Supported Cobots</div>
-                    <span class="text-sm text-gray-500 dark:text-gray-400">
+                    <span class="text-sm text-gray-500">
                         Our progress towards full compatibility
                     </span>
                 </a>
@@ -95,7 +95,7 @@
         <a
             use:link
             href="/knowledge-center"
-            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light dark:hover:bg-blend-darken"
+            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light"
             style="background-image: url(/img/learning_lots.webp)"
         >
             <p
@@ -103,12 +103,12 @@
             >
                 Aim Robotics Knowledge Center
             </p>
-            <p class=" text-white dark:text-white mb-5">
+            <p class=" text-white mb-5">
                 Your go-to hub for insight, documentation and guides.
             </p>
             <button
                 type="button"
-                class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700"
+                class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900"
             >
                 Get started
                 <svg

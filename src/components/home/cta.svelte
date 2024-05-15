@@ -4,20 +4,18 @@
     let imgSrc = '/img/bring_together.webp'
 </script>
 
-<section class="bg-white dark:bg-gray-900 pt-12 pb-24">
+<section class="bg-white pt-12 pb-24">
     <div
         class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"
     >
         <img class="w-full rounded-lg" src={imgSrc} alt="dashboard" />
         <div class="mt-4 md:mt-0">
             <h2
-                class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+                class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
             >
                 A Trusted Network Creating Tools and Ideas for the Future
             </h2>
-            <p
-                class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"
-            >
+            <p class="mb-6 font-light text-gray-500 md:text-lg">
                 Flowbite helps you connect with friends and communities of
                 people who share your interests. Connecting with your friends
                 and family as well as discovering new ones is easy with features
@@ -26,7 +24,7 @@
             <a
                 use:link
                 href="/network"
-                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#00adee] hover:bg-[#00adee]/90 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800"
             >
                 Explore Our Network
                 <svg

@@ -29,7 +29,7 @@
 </script>
 
 <nav
-    class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200"
     id="menu-container"
 >
     <div
@@ -46,7 +46,7 @@
             <a
                 use:link
                 href="/contact"
-                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#00adee] hover:bg-[#00adee]/90 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800"
             >
                 <svg
                     class="mr-2 -ml-1 w-5 h-5"
@@ -65,7 +65,7 @@
             <button
                 data-collapse-toggle="navbar-sticky"
                 type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100"
                 aria-controls="navbar-sticky"
                 aria-expanded="false"
             >

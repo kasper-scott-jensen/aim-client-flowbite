@@ -2,7 +2,7 @@
     import { link } from 'svelte-routing'
 </script>
 
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white">
     <div
         class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[650px]"
         style="background-image: url('bg/dispenser_sd.webp')"
@@ -19,7 +19,7 @@
                     class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full hover:bg-gray-200"
                 >
                     <span
-                        class="text-xs bg-[#00adee] rounded-full text-white px-4 py-1.5 mr-3"
+                        class="text-xs bg-primary-700 rounded-full text-white px-4 py-1.5 mr-3"
                     >
                         New
                     </span>
@@ -40,7 +40,7 @@
                     </svg>
                 </a>
                 <h1
-                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-[#00adee] md:text-5xl lg:text-6xl"
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-primary-700 md:text-5xl lg:text-6xl"
                 >
                     Dispensing Made Simple
                     <span
@@ -60,7 +60,7 @@
                     <a
                         use:link
                         href="/products"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#00adee] hover:bg-[#00adee]/90 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800"
                     >
                         Explore Solutions
                         <svg
@@ -79,7 +79,7 @@
                     <a
                         use:link
                         href="/knowledge-center"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100"
                     >
                         <svg
                             class="mr-2 -ml-1 w-6 h-6"

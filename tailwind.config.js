@@ -1,31 +1,36 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js,svelte,ts}",
-    "./node_modules/flowbite/**/*.{html,js,svelte,ts}",
-  ],
-  plugins: [
-    require("flowbite/plugin"),
-    require("tailwindcss-animate")
-  ],
-  theme: {
-    extend: {
-      colors: {
-        primary: {
-          50: "#eff6ff",
-          100: "#dbeafe",
-          200: "#bfdbfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
-          950: "#172554",
+    content: [
+        './src/**/*.{html,js,svelte,ts}',
+        './node_modules/flowbite/**/*.{html,js,svelte,ts}',
+    ],
+    plugins: [require('flowbite/plugin')],
+    theme: {
+        extend: {
+            colors: {
+                blue: {
+                    500: '#00adee',
+                    700: '#00adee',
+                },
+                gray: {
+                    900: '#222c56',
+                },
+                primary: {
+                    100: '#222c56',
+
+                    200: '#bfdbfe',
+                    300: '#93c5fd',
+                    400: '#60a5fa',
+                    500: '#3b82f6',
+
+                    600: '#ffffff',
+                    700: '#00adee',
+                    800: '#009dd9',
+
+                    900: '#1e3a8a',
+                },
+            },
         },
-      },
     },
-  },
-  darkMode: "class",
-};
+    darkMode: 'false',
+}
