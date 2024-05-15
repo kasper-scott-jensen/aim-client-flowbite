@@ -10,14 +10,16 @@
     import { onMount } from 'svelte'
 
     import Home from './pages/home.svelte'
+    import Products from './pages/products.svelte'
+    import NotFound from './pages/404.svelte'
 
     // ROUTES FOR NAVIGATION
 
     const routes = [
-        { path: '*', component: null },
+        { path: '*', component: NotFound },
         { path: '/', component: Home },
 
-        { path: '/products', component: null },
+        { path: '/products', component: Products },
         { path: '/products/:id', component: null },
 
         { path: '/applications', component: null },

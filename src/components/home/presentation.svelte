@@ -3,7 +3,7 @@
     let imgSrc2 = '/img/fd_310.webp'
 </script>
 
-<section class="bg-white">
+<section class="">
     <div
         class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-2xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
     >
@@ -24,9 +24,13 @@
             </p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src={imgSrc1} alt="SD3055" />
             <img
-                class="w-full lg:mt-24 xl:mt-48 rounded-lg"
+                class="w-full rounded-lg bg-gray-200 py-4"
+                src={imgSrc1}
+                alt="SD3055"
+            />
+            <img
+                class="w-full lg:mt-24 xl:mt-48 rounded-lg bg-gray-900 py-4"
                 src={imgSrc2}
                 alt="FD310"
             />

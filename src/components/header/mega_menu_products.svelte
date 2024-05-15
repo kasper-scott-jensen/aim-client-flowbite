@@ -88,7 +88,7 @@
         <a
             use:link
             href="/products"
-            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light"
+            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light group"
             style="background-image: url(/img/made_by_aim.webp)"
         >
             <p
@@ -102,9 +102,9 @@
             </p>
             <button
                 type="button"
-                class="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900"
+                class="inline-flex items-center text-sm font-medium text-center text-white border-white rounded-lg group-hover:underline"
             >
-                Get started
+                Browse
                 <svg
                     class="w-3 h-3 ms-2 rtl:rotate-180"
                     aria-hidden="true"

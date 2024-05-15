@@ -2,16 +2,16 @@
     import { link } from 'svelte-routing'
 </script>
 
-<section class="bg-white">
+<section class="">
     <div
-        class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[650px]"
+        class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[600px]"
         style="background-image: url('bg/dispenser_sd.webp')"
     >
         <div
             class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.6)] bg-fixed"
         >
             <div
-                class="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12 flex flex-col h-full items-center justify-center mt-8"
+                class="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12 flex flex-col h-full items-center justify-center"
             >
                 <a
                     use:link

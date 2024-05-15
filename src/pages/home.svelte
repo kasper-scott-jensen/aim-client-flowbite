@@ -4,9 +4,11 @@
     import Presentation from '../components/home/presentation.svelte'
     import Features from '../components/home/features.svelte'
     import CTA from '../components/home/cta.svelte'
+    import TopSpacer from '../components/utility/top_spacer.svelte'
 </script>
 
 <DefaultLayout>
+    <TopSpacer />
     <Hero />
     <Presentation />
     <Features />
