@@ -1,6 +1,6 @@
 <script>
     let imgSrc1 = '/img/sd_30_55.webp'
-    let imgSrc2 = '/img/fd_310.webp'
+    let imgSrc2 = '/img/fd_highv.webp'
 </script>
 
 <section class="">
@@ -30,7 +30,7 @@
                 alt="SD3055"
             />
             <img
-                class="w-full lg:mt-24 xl:mt-48 rounded-lg bg-gray-900 py-4"
+                class="w-full lg:mt-24 xl:mt-48 rounded-lg bg-gray-900 py-4 pt-0"
                 src={imgSrc2}
                 alt="FD310"
             />
