@@ -1,3 +1,5 @@
+<!-- CONTACT INFORMATION -->
+
 <div>
     <h2 class="mb-6 text-sm font-semibold text-white uppercase">Contact</h2>
     <p class="mb-5 flex items-center justify-start text-white">

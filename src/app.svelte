@@ -20,18 +20,18 @@
         { path: '/', component: Home },
 
         { path: '/products', component: Products },
-        { path: '/products/:id', component: null },
+        { path: '/products/:params', component: Products },
 
         { path: '/applications', component: null },
-        { path: '/applications/:id', component: null },
+        { path: '/applications/:params', component: null },
 
         { path: '/knowledge-center', component: null },
-        { path: '/knowledge-center/:id', component: null },
+        { path: '/knowledge-center/:params', component: null },
 
         { path: '/about', component: null },
 
         { path: '/network', component: null },
-        { path: '/network/:id', component: null },
+        { path: '/network/:params', component: null },
 
         { path: '/support', component: null },
 

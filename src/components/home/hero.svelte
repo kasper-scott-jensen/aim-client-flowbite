@@ -13,6 +13,8 @@
             <div
                 class="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12 flex flex-col h-full items-center justify-center"
             >
+                <!-- TOP NOTICE -->
+
                 <a
                     use:link
                     href="/knowledge-center/configurator"
@@ -39,6 +41,9 @@
                         ></path>
                     </svg>
                 </a>
+
+                <!-- HEADING -->
+
                 <h1
                     class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-primary-700 md:text-5xl lg:text-6xl"
                 >
@@ -54,13 +59,16 @@
                 >
                     Automation Solutions for Collaborative Robot Applications
                 </p>
+
+                <!-- CTA -->
+
                 <div
                     class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
                 >
                     <a
                         use:link
                         href="/products"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 shadow-md"
                     >
                         Explore Solutions
                         <svg
@@ -79,7 +87,7 @@
                     <a
                         use:link
                         href="/knowledge-center"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white hover:text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 shadow-md"
                     >
                         <svg
                             class="mr-2 -ml-1 w-6 h-6"

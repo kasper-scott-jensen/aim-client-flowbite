@@ -9,6 +9,8 @@
     <div
         class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 sm:grid-cols-2 md:grid-cols-3 md:px-6"
     >
+        <!-- LINKS -->
+
         <ul>
             <li>
                 <a
@@ -61,6 +63,9 @@
                 </a>
             </li>
         </ul>
+
+        <!-- RIGHT IMAGE AND LINK -->
+
         <div class="flex h-full flex-col justify-center">
             <h2 class="mb-2 font-semibold text-gray-900">
                 For more information
@@ -72,9 +77,9 @@
                 <a
                     use:link
                     href="/applications"
-                    class="inline-flex items-center text-sm font-medium text-[#00adee] hover:underline"
+                    class="inline-flex items-center text-md font-medium text-[#00adee] hover:underline"
                 >
-                    Discover
+                    Applications
                     <svg
                         class="w-3 h-3 ms-2 rtl:rotate-180"
                         aria-hidden="true"
@@ -94,7 +99,7 @@
                 <a
                     use:link
                     href="/contact"
-                    class="inline-flex items-center text-sm font-medium text-[#00adee] hover:underline px-4"
+                    class="inline-flex items-center text-md font-medium text-[#00adee] hover:underline px-4"
                 >
                     Contact
                     <svg

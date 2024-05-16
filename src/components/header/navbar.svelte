@@ -12,7 +12,6 @@
         const menuContainer = document.querySelector('#menu-container')
         if (menuContainer && !menuContainer.contains(event.target)) {
             closeAllMegaMenus()
-            console.log($megaMenuStates)
         }
     }
 
@@ -29,9 +28,11 @@
 </script>
 
 <nav
-    class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200"
+    class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 shadow-md"
     id="menu-container"
 >
+    <!-- LOGO -->
+
     <div
         class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
@@ -43,10 +44,12 @@
             <img src={logoSrc} class="h-10" alt="Flowbite Logo" />
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <!-- CONTACT BUTTON -->
+
             <a
                 use:link
                 href="/contact"
-                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800"
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 shadow-md"
             >
                 <svg
                     class="mr-2 -ml-1 w-5 h-5"
@@ -89,7 +92,13 @@
                 </svg>
             </button>
         </div>
+
+        <!-- NAVIGATION ITEMS -->
+
         <LinkList />
     </div>
+
+    <!-- DROPDOWN-->
+
     <MegaMenus />
 </nav>

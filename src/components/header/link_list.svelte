@@ -9,9 +9,10 @@
             }
             return states
         })
-        console.log($megaMenuStates)
     }
 </script>
+
+<!-- LIST OF NAV ITEMS -->
 
 <div
     class="items-center justify-between hidden w-full lg:flex md:w-auto md:order-1"

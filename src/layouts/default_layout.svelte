@@ -6,7 +6,7 @@
 <div class="flex flex-col">
     <Navbar />
     <div class="tw-background">
-        <div class="bg-white bg-opacity-70">
+        <div class="bg-white bg-opacity-80">
             <slot />
         </div>
     </div>
@@ -16,6 +16,7 @@
 <style>
     .tw-background {
         position: relative;
+        top: 0;
         width: 100%;
         overflow: hidden;
     }
@@ -23,35 +24,19 @@
     .tw-background::before {
         content: '';
         position: absolute;
-        top: -200px;
+        top: 0;
+        right: 0;
+        bottom: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
         background-image: url('/bg/abstract.webp');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        filter: blur(40px);
-        transform: rotate(0deg) scale(1) scaleX(1);
+        background-size: cover;
+        background-position: top right;
+        filter: blur(10px);
         z-index: -1;
     }
 
-    .tw-background::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-            to bottom,
-            rgba(255, 255, 255, 0) 50%,
-            rgba(255, 255, 255, 1) 95%
-        );
-        z-index: 0;
-    }
-
-    .tw-background > .bg-white {
+    .tw-background .bg-white {
         position: relative;
-        z-index: 1;
+        z-index: 0;
     }
 </style>

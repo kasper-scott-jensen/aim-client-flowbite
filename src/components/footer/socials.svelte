@@ -1,8 +1,13 @@
 <div class="sm:flex sm:items-center sm:justify-between">
+    <!-- DATE AND COPYRIGHT -->
+
     <span class="text-white">
         {new Date().getFullYear()} &copy; Aim Robotics
     </span>
+
     <div class="flex mt-4 sm:justify-center sm:mt-0">
+        <!-- FACEBOOK -->
+
         <a
             target="_blank"
             href="https://www.facebook.com/AimRobotics/"
@@ -23,6 +28,9 @@
             </svg>
             <span class="sr-only">Facebook page</span>
         </a>
+
+        <!-- TWITTER -->
+
         <a
             target="_blank"
             href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://twitter.com/roboticsaim%3Flang%3Den&ved=2ahUKEwj-rbuFx-6FAxVlIxAIHW5HChEQFnoECBUQAQ&usg=AOvVaw3xjSCg6-w0RASqlPqW6760"
@@ -43,6 +51,9 @@
             </svg>
             <span class="sr-only">Twitter page</span>
         </a>
+
+        <!-- LINKED IN -->
+
         <a
             target="_blank"
             href="https://www.linkedin.com/company/aimrobotics/"
@@ -63,6 +74,9 @@
             </svg>
             <span class="sr-only">Twitter page</span>
         </a>
+
+        <!-- YOUTUBE -->
+
         <a
             target="_blank"
             href="https://www.youtube.com/channel/UCJQFquVcEKNgbN19sj9p8xwtw"

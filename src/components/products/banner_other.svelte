@@ -3,11 +3,13 @@
 </script>
 
 <div class="md:flex mt-6 w-full gap-6">
+    <!-- ACCESSORIES -->
+
     <div class="mx-auto group w-full pb-6 md:pb-0">
         <a
             use:link
             href="/products/accessories"
-            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12"
+            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12 shadow-md"
             style="background-image: url(/img/accessories.webp)"
         >
             <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-white">
@@ -39,11 +41,14 @@
             </button>
         </a>
     </div>
+
+    <!-- REPLACEMENT PARTS -->
+
     <div class="mx-auto group w-full">
         <a
             use:link
             href="/products/replacement-parts"
-            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12"
+            class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12 shadow-md"
             style="background-image: url(/img/parts.webp)"
         >
             <h2 class="mb-4 text-3xl trcking-tight font-extrabold text-white">

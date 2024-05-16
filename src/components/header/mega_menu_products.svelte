@@ -9,6 +9,8 @@
     <div
         class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 sm:grid-cols-2 md:grid-cols-3 md:px-6"
     >
+        <!-- LINKS -->
+
         <ul>
             <li>
                 <a
@@ -46,6 +48,18 @@
                     </span>
                 </a>
             </li>
+            <li>
+                <a
+                    use:link
+                    href="/products/tcp"
+                    class="block p-3 rounded-lg hover:bg-gray-50"
+                >
+                    <div class="font-semibold">TCP Calibration Tool</div>
+                    <span class="text-sm text-gray-500">
+                        Tip detection and center point calibration
+                    </span>
+                </a>
+            </li>
         </ul>
         <ul>
             <li>
@@ -75,16 +89,25 @@
             <li>
                 <a
                     use:link
-                    href="/products/tcp"
+                    href="/products/catalogue"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
-                    <div class="font-semibold">TCP Calibration Tool</div>
+                    <div class="font-semibold">
+                        Product Catalogue <span
+                            class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-1 rounded ms-2"
+                        >
+                            New
+                        </span>
+                    </div>
                     <span class="text-sm text-gray-500">
-                        Tip detection and center point calibration
+                        Browse through all our products and parts
                     </span>
                 </a>
             </li>
         </ul>
+
+        <!-- RIGHT IMAGE AND LINKS -->
+
         <a
             use:link
             href="/products"

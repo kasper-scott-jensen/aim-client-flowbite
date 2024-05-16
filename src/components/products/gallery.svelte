@@ -2,6 +2,7 @@
     import BannerCatalogue from './banner_catalogue.svelte'
     import BannerCategories from './banner_categories.svelte'
     import BannerOther from './banner_other.svelte'
+    import BannerDispensers from './banner_dispensers.svelte'
 </script>
 
 <section class="pt-4 pb-24">
@@ -9,6 +10,10 @@
         <!-- CATALOGUE -->
 
         <BannerCatalogue />
+
+        <!-- DISPENSERS -->
+
+        <BannerDispensers />
 
         <!-- CATEGORIES -->
 

@@ -8,12 +8,14 @@ function readFiles(directory) {
         if (statSync(fullPath).isDirectory()) {
             readFiles(fullPath)
         } else if (extname(fullPath) === '.svelte') {
-            removeFocusClasses(fullPath)
+            removeClasses(fullPath)
         }
     })
 }
 
-function removeFocusClasses(filePath) {
+// REMOVE ALL CLASSES THAT HAS DARK: FOCUS: OR ACTIVE:
+
+function removeClasses(filePath) {
     readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error(`Error reading file from disk: ${err}`)

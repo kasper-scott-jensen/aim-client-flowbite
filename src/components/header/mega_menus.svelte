@@ -6,6 +6,8 @@
     import MegaMenuKnowledgeCenter from './mega_menu_knowledge_center.svelte'
 </script>
 
+<!-- MEGA MENU SWITCHER -->
+
 {#if $megaMenuStates[0]}
     <MegaMenuProducts />
 {:else if $megaMenuStates[1]}

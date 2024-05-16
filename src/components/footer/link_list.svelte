@@ -2,6 +2,8 @@
     import { link } from 'svelte-routing'
 </script>
 
+<!-- LEFT -->
+
 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
     <div class="px-8">
         <h2 class="mb-6 text-sm font-semibold text-white uppercase">
@@ -31,6 +33,9 @@
             </li>
         </ul>
     </div>
+
+    <!-- MID -->
+
     <div class="px-8">
         <h2 class="mb-6 text-sm font-semibold text-white uppercase">
             Help and Inquiries
@@ -67,6 +72,9 @@
             </li>
         </ul>
     </div>
+
+    <!-- RIGHT -->
+
     <div class="px-8">
         <h2 class="mb-6 text-sm font-semibold text-white uppercase">Network</h2>
         <ul class="text-white font-medium">

@@ -2,6 +2,8 @@
     import { link } from 'svelte-routing'
 </script>
 
+<!-- 404 JUMBROTRON -->
+
 <section class="flex flex-col min-h-screen justify-center -mt-48">
     <div class="px-4 mx-auto max-w-screen-2xl lg:px-6">
         <div class="mx-auto text-center">

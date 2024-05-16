@@ -9,6 +9,8 @@
     <div
         class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 sm:grid-cols-2 md:grid-cols-3 md:px-6"
     >
+        <!-- LINKS -->
+
         <ul>
             <li>
                 <a
@@ -92,6 +94,9 @@
                 </a>
             </li>
         </ul>
+
+        <!-- RIGHT IMAGE AND LINKS -->
+
         <a
             use:link
             href="/knowledge-center"
