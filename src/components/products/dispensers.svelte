@@ -1,15 +1,25 @@
 <script>
     import { onMount } from 'svelte'
     import { breadcrumb } from '../../stores/navigation'
+    import { products } from '../../stores/rackbeat.js'
     import { link } from 'svelte-routing'
 
     import BannerCatalogue from './banner_catalogue.svelte'
-    import BrandList from './brand_list.svelte'
+    import ProductCard from './product_card.svelte'
 
-    let imgSrc1 = '/img/sd_30_55.webp'
-    let imgSrc2 = '/img/fd_highv.webp'
-    let imgSrc3 = '/img/fd_310.webp'
-    let imgSrc4 = '/img/fd_400.webp'
+    let sd3055
+    let fdhighv
+    let fd310
+    let fd400
+
+    $: {
+        products.subscribe(($products) => {
+            sd3055 = $products.find((p) => p.id === '9410')
+            fdhighv = $products.find((p) => p.id === '9027')
+            fd310 = $products.find((p) => p.id === '9000')
+            fd400 = $products.find((p) => p.id === '9044')
+        })
+    }
 
     onMount(() => {
         breadcrumb.set([
@@ -41,237 +51,49 @@
             <div
                 class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 mt-6"
             >
-                <!-- 1 -->
-                <a
-                    href="/products/details?9410"
-                    class="group border-2 border-gray-900 rounded-md"
-                >
-                    <div
-                        class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
-                    >
-                        <BrandList
-                            displayIcons={[
-                                true,
-                                false,
-                                true,
-                                false,
-                                true,
-                                true,
-                            ]}
-                        />
-                        <img
-                            class="p-4 rounded-t-lg max-h-96"
-                            src={imgSrc1}
-                            alt="product"
-                        />
-                        <div class="px-8 py-8 bg-gray-200 w-full h-full">
-                            <div class="flex items-center mb-3">
-                                <p
-                                    class="bg-gray-900 text-white text-md font-semibold inline-flex items-center p-1.5 px-2.5 rounded dark:bg-blue-200 dark:text-blue-800"
-                                >
-                                    # 9410
-                                </p>
-                            </div>
-                            <div class="flex items-center mt-2.5 mb-2.5">
-                                <div class="flex items-center">
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Adhesives
-                                    </span>
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Silicones
-                                    </span>
-                                </div>
-                            </div>
-                            <h5
-                                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white pt-2"
-                            >
-                                Airless Syringe Dispenser
-                            </h5>
-                            <div class="flex items-end justify-between">
-                                <span
-                                    class="text-3xl font-bold text-gray-900 dark:text-white group-hover:text-primary-700 group-hover:underline"
-                                >
-                                    SD 30/55
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                <!-- SD -->
 
-                <!-- 2 -->
+                <ProductCard
+                    img={sd3055.media.img_url}
+                    id={sd3055.id}
+                    badges={sd3055.badges}
+                    nameSub={sd3055.description.name_sub}
+                    name={sd3055.name}
+                    url={'/products/details?9410'}
+                />
 
-                <a
-                    href="/products/details?9410"
-                    class="group border-2 border-gray-900 rounded-md"
-                >
-                    <div
-                        class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
-                    >
-                        <BrandList
-                            displayIcons={[true, true, true, true, true, true]}
-                        />
-                        <img
-                            class="p-4 rounded-t-lg max-h-96"
-                            src={imgSrc2}
-                            alt="product"
-                        />
-                        <div class="px-8 py-8 bg-gray-200 w-full h-full">
-                            <div class="flex items-center mb-3">
-                                <p
-                                    class="bg-gray-900 text-white text-md font-semibold inline-flex items-center p-1.5 px-2.5 rounded dark:bg-blue-200 dark:text-blue-800"
-                                >
-                                    # 9027
-                                </p>
-                            </div>
-                            <div class="flex items-center mt-2.5 mb-2.5">
-                                <div class="flex items-center">
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Greases
-                                    </span>
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Silicones
-                                    </span>
-                                </div>
-                            </div>
-                            <h5
-                                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white pt-2"
-                            >
-                                External Feed Dispenser
-                            </h5>
-                            <div class="flex items-end justify-between">
-                                <span
-                                    class="text-3xl font-bold text-gray-900 dark:text-white group-hover:text-primary-700 group-hover:underline"
-                                >
-                                    FD HighV
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                <!-- HIGH V -->
 
-                <!-- 3 -->
+                <ProductCard
+                    img={fdhighv.media.img_url}
+                    id={fdhighv.id}
+                    badges={fdhighv.badges}
+                    nameSub={fdhighv.description.name_sub}
+                    name={fdhighv.name}
+                    url={'/products/details?9027'}
+                />
 
-                <a
-                    href="/products/details?9410"
-                    class="group border-2 border-gray-900 rounded-md"
-                >
-                    <div
-                        class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
-                    >
-                        <BrandList
-                            displayIcons={[true, false, true, true, true, true]}
-                        />
-                        <img
-                            class="p-4 rounded-t-lg max-h-96"
-                            src={imgSrc3}
-                            alt="product"
-                        />
-                        <div class="px-8 py-8 bg-gray-200 w-full h-full">
-                            <div class="flex items-center mb-3">
-                                <p
-                                    class="bg-gray-900 text-white text-md font-semibold inline-flex items-center p-1.5 px-2.5 rounded dark:bg-blue-200 dark:text-blue-800"
-                                >
-                                    # 9000
-                                </p>
-                            </div>
-                            <div class="flex items-center mt-2.5 mb-2.5">
-                                <div class="flex items-center">
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Adhesives
-                                    </span>
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Silicones
-                                    </span>
-                                </div>
-                            </div>
-                            <h5
-                                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white pt-2"
-                            >
-                                Airless cartridge dispenser
-                            </h5>
-                            <div class="flex items-end justify-between">
-                                <span
-                                    class="text-3xl font-bold text-gray-900 dark:text-white group-hover:text-primary-700 group-hover:underline"
-                                >
-                                    FD 310
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                <!-- 310 -->
 
-                <!-- 4 -->
-                <a
-                    href="/products/details?9410"
-                    class="group border-2 border-gray-900 rounded-md"
-                >
-                    <div
-                        class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
-                    >
-                        <BrandList
-                            displayIcons={[
-                                true,
-                                true,
-                                true,
-                                false,
-                                false,
-                                false,
-                            ]}
-                        />
-                        <img
-                            class="p-4 rounded-t-lg max-h-96"
-                            src={imgSrc4}
-                            alt="product"
-                        />
-                        <div class="px-8 py-8 bg-gray-200 w-full h-full">
-                            <div class="flex items-center mb-3">
-                                <p
-                                    class="bg-gray-900 text-white text-md font-semibold inline-flex items-center p-1.5 px-2.5 rounded dark:bg-blue-200 dark:text-blue-800"
-                                >
-                                    # 9044
-                                </p>
-                            </div>
-                            <div class="flex items-center mt-2.5 mb-2.5">
-                                <div class="flex items-center">
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Adhesives
-                                    </span>
-                                    <span
-                                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                                    >
-                                        Silicones
-                                    </span>
-                                </div>
-                            </div>
-                            <h5
-                                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white pt-2"
-                            >
-                                Cartridge dispenser
-                            </h5>
-                            <div class="flex items-end justify-between">
-                                <span
-                                    class="text-3xl font-bold text-gray-900 dark:text-white group-hover:text-primary-700 group-hover:underline"
-                                >
-                                    FD 400
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                <ProductCard
+                    img={fd310.media.img_url}
+                    id={fd310.id}
+                    badges={fd310.badges}
+                    nameSub={fd310.description.name_sub}
+                    name={fd310.name}
+                    url={'/products/details?9000'}
+                />
+
+                <!-- 400 -->
+
+                <ProductCard
+                    img={fd400.media.img_url}
+                    id={fd400.id}
+                    badges={fd400.badges}
+                    nameSub={fd400.description.name_sub}
+                    name={fd400.name}
+                    url={'/products/details?9044'}
+                />
             </div>
         </div>
 

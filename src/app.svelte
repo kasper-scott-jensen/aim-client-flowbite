@@ -8,10 +8,15 @@
 
     import { Router, Route } from 'svelte-routing'
     import { onMount } from 'svelte'
+    import {
+        fetchPartnersFromApi,
+        fetchProductsFromApi,
+    } from './js/init_api_data.js'
 
     import Home from './pages/home.svelte'
     import Products from './pages/products.svelte'
     import NotFound from './pages/404.svelte'
+    import LoadingScreen from './components/utility/loading_screen.svelte'
 
     // ROUTES FOR NAVIGATION
 
@@ -46,7 +51,8 @@
 
     onMount(async () => {
         try {
-            //
+            await fetchProductsFromApi()
+            await fetchPartnersFromApi()
         } finally {
             isLoading = false
         }
@@ -56,7 +62,7 @@
 <!-- ROUTER -->
 
 {#if isLoading}
-    <!-- -->
+    <LoadingScreen />
 {:else}
     <Router>
         {#each routes as { path, component }}
