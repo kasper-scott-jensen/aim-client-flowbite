@@ -7,13 +7,14 @@
     export let nameSub
     export let name
     export let url
+    export let imgClass = ''
 </script>
 
 <a use:link href={url} class="group border-2 border-gray-900 rounded-md">
     <div
         class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
     >
-        <img class="rounded-t-lg max-h-64" src={img} alt="product" />
+        <img class="{imgClass} rounded-t-lg max-h-64" src={img} alt="product" />
         <div class="px-8 py-8 bg-gray-200 w-full h-full">
             <div class="flex items-center mb-3">
                 <p

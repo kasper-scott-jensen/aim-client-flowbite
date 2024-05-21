@@ -40,6 +40,7 @@
             nameSub={aimpath.description.name_sub}
             name={aimpath.name}
             url={'/products/details?9503'}
+            imgClass={'p-8'}
         />
 
         <!-- TCP -->
