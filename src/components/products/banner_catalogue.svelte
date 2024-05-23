@@ -7,7 +7,7 @@
 <div class="mx-auto group">
     <a
         use:link
-        href="/products"
+        href="/products/catalogue"
         class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-10 shadow-md"
         style="background-image: url(/img/made_by_aim.webp)"
     >

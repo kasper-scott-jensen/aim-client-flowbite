@@ -21,37 +21,43 @@
         class="grid gap-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 mt-6"
     >
         <!-- AIRBOX -->
-
-        <ProductCard
-            img={airbox.media.img_url}
-            id={airbox.id}
-            badges={airbox.badges}
-            nameSub={airbox.description.name_sub}
-            name={airbox.name}
-            url={'/products/details?9302'}
-        />
+        {#if airbox}
+            <ProductCard
+                img={airbox.media.img_url}
+                id={airbox.id}
+                badges={airbox.badges}
+                nameSub={airbox.description.name_sub}
+                name={airbox.name}
+                hcl={airbox.hcl}
+                url={'/products/details?9302'}
+            />
+        {/if}
 
         <!-- AIMPATH -->
-
-        <ProductCard
-            img={aimpath.media.img_url}
-            id={aimpath.id}
-            badges={aimpath.badges}
-            nameSub={aimpath.description.name_sub}
-            name={aimpath.name}
-            url={'/products/details?9503'}
-            imgClass={'p-8'}
-        />
+        {#if airbox}
+            <ProductCard
+                img={aimpath.media.img_url}
+                id={aimpath.id}
+                badges={aimpath.badges}
+                nameSub={aimpath.description.name_sub}
+                name={aimpath.name}
+                hcl={aimpath.hcl}
+                url={'/products/details?9503'}
+                imgClass={'p-14'}
+            />
+        {/if}
 
         <!-- TCP -->
-
-        <ProductCard
-            img={tcp.media.img_url}
-            id={tcp.id}
-            badges={tcp.badges}
-            nameSub={tcp.description.name_sub}
-            name={tcp.name}
-            url={'/products/details?9226'}
-        />
+        {#if airbox}
+            <ProductCard
+                img={tcp.media.img_url}
+                id={tcp.id}
+                badges={tcp.badges}
+                nameSub={tcp.description.name_sub}
+                name={tcp.name}
+                hcl={tcp.hcl}
+                url={'/products/details?9226'}
+            />
+        {/if}
     </div>
 </div>

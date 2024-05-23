@@ -9,6 +9,7 @@
     import Gallery from '../components/products/gallery.svelte'
     import Dispensers from '../components/products/dispensers.svelte'
     import ProductDetails from '../components/products/product_details.svelte'
+    import ProductCatalogue from '../components/products/product_catalogue.svelte'
 
     export let params
 
@@ -47,6 +48,8 @@
         <Dispensers />
     {:else if $productsParams[0] === 'details'}
         <ProductDetails number={$productsParams[1]} />
+    {:else if $productsParams[0] === 'catalogue'}
+        <ProductCatalogue params={$productsParams[1]} />
     {:else}
         <Gallery />
     {/if}

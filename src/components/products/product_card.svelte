@@ -1,6 +1,8 @@
 <script>
     import { link } from 'svelte-routing'
 
+    import BrandList from './brand_list.svelte'
+
     export let img
     export let id
     export let badges
@@ -8,44 +10,82 @@
     export let name
     export let url
     export let imgClass = ''
+    export let hcl
+
+    let compatArray = [
+        hcl.universal,
+        hcl.kassow,
+        hcl.tm_omron,
+        hcl.fanuc,
+        hcl.kuka,
+        hcl.abb,
+        hcl.doosan,
+    ]
+    let displayIcons = compatArray.map((item) => item.includes('1'))
 </script>
 
-<a use:link href={url} class="group border-2 border-gray-900 rounded-md">
-    <div
-        class="relative flex flex-col w-full bg-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 justify-center items-center h-full"
-    >
-        <img class="{imgClass} rounded-t-lg max-h-64" src={img} alt="product" />
-        <div class="px-8 py-8 bg-gray-200 w-full h-full">
-            <div class="flex items-center mb-3">
-                <p
-                    class="bg-gray-900 text-white text-md font-semibold inline-flex items-center p-1.5 px-2.5 rounded dark:bg-blue-200 dark:text-blue-800"
-                >
-                    # {id}
-                </p>
-            </div>
-            <div class="flex items-center mt-2.5 mb-2.5">
+<article class="rounded-md p-6 shadow-md bg-white group border">
+    <!-- IMAGE -->
+    <a use:link href={url}>
+        <div class="relative flex items-end overflow-hidden rounded-md">
+            <img src={img} alt="article" class="{imgClass} h-96 w-auto" />
+            <div class="absolute bottom-0 left-0 inline-flex items-center">
                 <div class="flex items-center">
-                    {#each badges.filter((badge) => badge !== null && badge !== undefined) as badge}
-                        <span
-                            class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300"
-                        >
-                            {badge}
-                        </span>
-                    {/each}
+                    <p
+                        class="bg-gray-900 text-white text-sm font-semibold inline-flex items-center p-1.5 px-2.5 rounded"
+                    >
+                        # {id}
+                    </p>
                 </div>
             </div>
-            <h5
-                class="text-lg font-normal tracking-tight text-gray-900 dark:text-white pt-2"
-            >
-                {nameSub}
-            </h5>
-            <div class="flex items-end justify-between">
-                <span
-                    class="text-2xl font-bold text-gray-900 dark:text-white group-hover:text-primary-700 group-hover:underline"
-                >
-                    {name}
-                </span>
+        </div>
+
+        <!-- BADGES -->
+
+        <div class="mt-1 pt-6">
+            <div class="flex items-center pb-6">
+                {#each badges.filter((badge) => badge !== null && badge !== undefined && badge !== '') as badge}
+                    <span
+                        class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded"
+                    >
+                        {badge}
+                    </span>
+                {/each}
+            </div>
+
+            <!-- TITLE -->
+            <h2 class="text-primary-700 font-bold text-xl">{name}</h2>
+            <p class="text-gray-500 mt-1 text-md pb-2">{nameSub}</p>
+
+            <div class="mt-3 flex flex-col items-start pb-2">
+                <!-- CTA -->
+                <div class="pb-6">
+                    <button
+                        type="button"
+                        class="flex items-center text-sm font-medium text-center text-gray-900 border-white rounded-lg group-hover:underline"
+                    >
+                        Read More
+                        <svg
+                            class="w-3 h-3 ms-2 rtl:rotate-180"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 14 10"
+                        >
+                            <path
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9"
+                            />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- ICONS -->
+                <BrandList {displayIcons} />
             </div>
         </div>
-    </div>
-</a>
+    </a>
+</article>

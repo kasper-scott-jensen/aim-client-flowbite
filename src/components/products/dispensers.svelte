@@ -59,6 +59,7 @@
                     badges={sd3055.badges}
                     nameSub={sd3055.description.name_sub}
                     name={sd3055.name}
+                    hcl={sd3055.hcl}
                     url={'/products/details?9410'}
                 />
 
@@ -70,6 +71,7 @@
                     badges={fdhighv.badges}
                     nameSub={fdhighv.description.name_sub}
                     name={fdhighv.name}
+                    hcl={fdhighv.hcl}
                     url={'/products/details?9027'}
                 />
 
@@ -81,6 +83,7 @@
                     badges={fd310.badges}
                     nameSub={fd310.description.name_sub}
                     name={fd310.name}
+                    hcl={fd310.hcl}
                     url={'/products/details?9000'}
                 />
 
@@ -92,6 +95,7 @@
                     badges={fd400.badges}
                     nameSub={fd400.description.name_sub}
                     name={fd400.name}
+                    hcl={fd400.hcl}
                     url={'/products/details?9044'}
                 />
             </div>
