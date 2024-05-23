@@ -30,7 +30,7 @@
 <!-- SORTING -->
 <div class="flex flex-col w-full pb-8">
     <h3 class="mb-4 font-semibold text-gray-900">Sort By</h3>
-    <form class="max-w-sm mx-auto w-full" id="sort-form">
+    <form class="mx-auto w-full" id="sort-form">
         <select
             id="sorting"
             class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-3"
@@ -68,7 +68,7 @@
         </div>
     {/if}
 </div>
-<form class="max-w-md mx-auto pb-8">
+<form class="mx-auto pb-8">
     <div class="relative">
         <div
             class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
@@ -147,7 +147,7 @@
                     class="w-full py-3 ms-2 text-sm font-medium text-gray-900 capitalize"
                 >
                     <span
-                        class={`bg-${cat.color} inline-block w-2.5 h-2.5 mr-1 mx-2 rounded-full`}
+                        class={`${cat.color} inline-block w-2.5 h-2.5 mr-1 mx-2 rounded-full`}
                     ></span>
                     {cat.cat}
                 </label>

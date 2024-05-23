@@ -51,7 +51,7 @@
                     product.name.toLowerCase().includes(lowerCaseSearchText)
                 let categoryMatch =
                     activeCategoryIndices.length === 0 ||
-                    activeCategoryIndices.includes(product.category_id - 1)
+                    activeCategoryIndices.includes(product.category_id)
                 return searchTextMatch && categoryMatch
             })
 
@@ -120,11 +120,11 @@
                 solutions.
             </p>
         </div>
-        <div class="flex">
-            <div class="w-1/5 bg-none">
+        <div class="flex flex-col lg:flex-row">
+            <div class="lg:w-1/5 bg-none mb-4 lg:mb-0">
                 <CatelogueSidebar />
             </div>
-            <div class="w-4/5 ps-4 lg:ps-12">
+            <div class="lg:w-4/5 lg:ps-12">
                 <div
                     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
                 >

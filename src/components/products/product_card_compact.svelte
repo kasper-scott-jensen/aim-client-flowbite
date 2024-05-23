@@ -9,6 +9,9 @@
     export let name
     export let url
     export let imgClass = ''
+
+    console.log(categoryId)
+    console.log($categoryMenu[categoryId].color)
 </script>
 
 <a use:link href={url} class="block group">
@@ -36,7 +39,7 @@
             <h2 class="text-primary-700 font-bold text-lg">{name}</h2>
             <p class="text-gray-500 mt-1 text-sm capitalize">
                 <span
-                    class={`bg-${$categoryMenu[categoryId - 1].color} inline-block w-2.5 h-2.5 mr-1 rounded-full`}
+                    class={`${$categoryMenu[categoryId].color} inline-block w-2.5 h-2.5 mr-1 rounded-full`}
                 ></span>
                 {category}
             </p>
