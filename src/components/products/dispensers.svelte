@@ -60,7 +60,7 @@
                     nameSub={sd3055.description.name_sub}
                     name={sd3055.name}
                     hcl={sd3055.hcl}
-                    url={'/products/details?9410'}
+                    url={'/products/details:9410'}
                 />
 
                 <!-- HIGH V -->
@@ -72,7 +72,7 @@
                     nameSub={fdhighv.description.name_sub}
                     name={fdhighv.name}
                     hcl={fdhighv.hcl}
-                    url={'/products/details?9027'}
+                    url={'/products/details:9027'}
                 />
 
                 <!-- 310 -->
@@ -84,7 +84,7 @@
                     nameSub={fd310.description.name_sub}
                     name={fd310.name}
                     hcl={fd310.hcl}
-                    url={'/products/details?9000'}
+                    url={'/products/details:9000'}
                 />
 
                 <!-- 400 -->
@@ -96,7 +96,7 @@
                     nameSub={fd400.description.name_sub}
                     name={fd400.name}
                     hcl={fd400.hcl}
-                    url={'/products/details?9044'}
+                    url={'/products/details:9044'}
                 />
             </div>
         </div>

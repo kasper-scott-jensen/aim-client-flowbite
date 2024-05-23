@@ -8,7 +8,7 @@
     <div class="mx-auto group w-full pb-6 md:pb-0">
         <a
             use:link
-            href="/products/accessories"
+            href="/products/catalogue:accessories"
             class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12 shadow-md"
             style="background-image: url(/img/accessories.webp)"
         >
@@ -47,7 +47,7 @@
     <div class="mx-auto group w-full">
         <a
             use:link
-            href="/products/replacement-parts"
+            href="/products/catalogue:replacement-parts"
             class="p-8 bg-local bg-gray-500 bg-center bg-no-repeat bg-cover rounded-lg bg-blend-multiply hover:bg-blend-soft-light flex flex-col w-full h-full py-12 shadow-md"
             style="background-image: url(/img/parts.webp)"
         >

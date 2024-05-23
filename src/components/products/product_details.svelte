@@ -1,3 +1,3 @@
 <script>
-    export let number
+    export let params = ''
 </script>

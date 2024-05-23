@@ -29,7 +29,7 @@
                 nameSub={airbox.description.name_sub}
                 name={airbox.name}
                 hcl={airbox.hcl}
-                url={'/products/details?9302'}
+                url={'/products/details:9302'}
             />
         {/if}
 
@@ -42,7 +42,7 @@
                 nameSub={aimpath.description.name_sub}
                 name={aimpath.name}
                 hcl={aimpath.hcl}
-                url={'/products/details?9503'}
+                url={'/products/details:9503'}
                 imgClass={'p-14'}
             />
         {/if}
@@ -56,7 +56,7 @@
                 nameSub={tcp.description.name_sub}
                 name={tcp.name}
                 hcl={tcp.hcl}
-                url={'/products/details?9226'}
+                url={'/products/details:9226'}
             />
         {/if}
     </div>

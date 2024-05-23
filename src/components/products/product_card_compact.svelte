@@ -9,9 +9,6 @@
     export let name
     export let url
     export let imgClass = ''
-
-    console.log(categoryId)
-    console.log($categoryMenu[categoryId].color)
 </script>
 
 <a use:link href={url} class="block group">

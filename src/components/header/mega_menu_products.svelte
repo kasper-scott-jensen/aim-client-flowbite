@@ -27,7 +27,7 @@
             <li>
                 <a
                     use:link
-                    href="/products/airbox"
+                    href="/products/details:9302"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">AirBox</div>
@@ -39,7 +39,7 @@
             <li>
                 <a
                     use:link
-                    href="/products/aimpath"
+                    href="/products/details:9503"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">AimPath URCap</div>
@@ -51,7 +51,7 @@
             <li>
                 <a
                     use:link
-                    href="/products/tcp"
+                    href="/products/details:9226"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">TCP Calibration Tool</div>
@@ -65,7 +65,7 @@
             <li>
                 <a
                     use:link
-                    href="/products/accessories"
+                    href="/products/catalogue:accessories"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Accessories</div>
@@ -77,7 +77,7 @@
             <li>
                 <a
                     use:link
-                    href="/products/replacement-parts"
+                    href="/products/catalogue:replacement-parts"
                     class="block p-3 rounded-lg hover:bg-gray-50"
                 >
                     <div class="font-semibold">Replacement Parts</div>

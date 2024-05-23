@@ -1,4 +1,6 @@
 <script>
+    // @ts-nocheck
+
     import { onMount } from 'svelte'
     import { derived } from 'svelte/store'
     import { breadcrumb } from '../../stores/navigation.js'
@@ -8,22 +10,23 @@
         sortingIndex,
     } from '../../stores/product_catalogue.js'
     import { products } from '../../stores/rackbeat.js'
+    import { productParams } from '../../stores/params.js'
 
     import ProductCardCompact from './product_card_compact.svelte'
     import CatelogueSidebar from './catalogue_sidebar.svelte'
-
-    export let params = ''
 
     let fallbackImg = '/img/fallback.webp'
 
     // HANDLE NAVIGATION WITH PARAMS
 
-    function handleParams() {
+    $: handleParams($productParams[1])
+
+    function handleParams(params) {
+        handleClearCategoriesMenu()
         if (params && params !== '') {
-            handleClearCategoriesMenu()
             categoryMenu.update((menu) => {
                 return menu.map((item) => {
-                    if (params === item.cat) {
+                    if (params.replace(/-/g, ' ') === item.cat) {
                         return { ...item, state: true }
                     }
                     return item
@@ -54,8 +57,6 @@
                     activeCategoryIndices.includes(product.category_id)
                 return searchTextMatch && categoryMatch
             })
-
-            // Sorting logic
             const sortProperties = ['name', 'id']
             const sortProperty =
                 sortProperties[$sortingIndex % sortProperties.length]
@@ -97,7 +98,7 @@
     // RESET ON MOUNT
 
     onMount(() => {
-        handleParams()
+        handleParams($productParams[1])
         // handleClearCategoriesMenu()
         // handleClearSearch()
         breadcrumb.set([
